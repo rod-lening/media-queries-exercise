@@ -1,3 +1,7 @@
+* {
+
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -49,7 +53,7 @@ ul{
     display: flex;
     justify-content: center;
     text-decoration: none;
-
+    color: black;
 }
 .header-img > img {
     height: 100%;
@@ -78,7 +82,78 @@ footer {
 
 @media screen and (min-width: 768px) {
     * {
-
         text-align: center;
+    }
+    body {
+        /*display: flex;*/
+        display: inline-block;
+        flex-direction: column;
+        margin: 20px;
+        height: 100%
+    }
+    .alert-info {
+        display: none;
+    }
+    h1 {
+        display: flex;
+        align-self: center;
+        /*flex-direction: row;*/
+        float: left;
+
+    }
+    nav {
+        display: inline-block;
+        flex-direction: row;
+        float: right;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        margin-block-start: auto;
+    }
+    ul > li {
+        background-color: white;
+    }
+    ul > li{
+        padding-right: 0;
+    }
+
+    .header-img {
+        margin-bottom: 10px;
+    }
+
+    .header-img > img {
+        margin-top: 10px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        float: left;
+        flex-wrap: wrap;
+        width: 72%;
+    }
+
+    .sub-section {
+        display: flex;
+        float: right;
+        flex-wrap: wrap;
+        width: 28%;
+    }
+    section {
+        display: inline-block;
+        margin: auto;
+    }
+    p {
+        text-align: start;
+    }
+    .main > p {
+        padding-right: 10%;
+    }
+    footer {
+        margin-top: 100%
     }
 }
