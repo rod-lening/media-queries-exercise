@@ -30,7 +30,6 @@ h1 {
 
 ul > li {
     display: flex;
-    /*justify-content: space-evenly ;*/
     background-color: #D0D2D2;
     margin: 10px auto;
     justify-content: center;
@@ -47,7 +46,6 @@ ul{
     padding: 0;
 
 }
-
 
 .alert-info >a {
     display: flex;
@@ -83,19 +81,12 @@ footer {
     display: none;
 }
 
-
-
-
-
-
-
 @media screen and (min-width: 768px) {
     * {
         font-family: 'Roboto Condensed', sans-serif;
         text-align: center;
     }
     body {
-        /*display: flex;*/
         display: inline-block;
         flex-direction: column;
         margin: 20px;
@@ -107,7 +98,6 @@ footer {
     h1 {
         display: flex;
         align-self: center;
-        /*flex-direction: row;*/
         float: left;
 
     }
@@ -165,8 +155,7 @@ footer {
         padding-right: 10%;
     }
     footer {
-        margin-top: 100%
-
+        margin-top: 50%
     }
     #social-media-links {
         display: flex;
