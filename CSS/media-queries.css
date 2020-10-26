@@ -169,8 +169,9 @@ footer {
 
     }
     #social-media-links {
+        display: flex;
         float: right;
-        margin-top: -10px;
+        margin-top: -20px;
             }
     .right_nav > a > i  {
         font-size: 35px;
